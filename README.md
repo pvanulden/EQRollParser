@@ -1,5 +1,7 @@
 # EQRollParser
-A log parser for EverQuest
+A log parser for EverQuest.
+
+It searches for /random rolls and will print them out in order from highest to lowest roll.  The parser does need a little help to separate sets of rolls.  It looks for the output of the /who command at which point it starts reading for the next set.  So, to separate one set of rolls from the next, simple issue a /who command in your EverQuest client.
 
 ![alt text](http://www.guildseofon.com/EQRollParser/EQRollParser.gif)
 
